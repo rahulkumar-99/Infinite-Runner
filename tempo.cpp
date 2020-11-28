@@ -3,7 +3,7 @@
 #include <iostream>
 #include <time.h>
 #include <windows.h>
-#include <GL/glut.h> 
+
 void gotoxy(int x, int y)
 {
  COORD coord;
@@ -20,6 +20,10 @@ void getup()
 {
 	system("cls");
 	gotoxy(10,2);
+	printf("DELHI TECHNOLOGICAL UNIVERSITY\n");
+		gotoxy(10,3);
+	printf("NITIN - RAHUL KUMAR   CG PROJECT\n\n");
+		gotoxy(10,4);
 	printf("Press X to Exit, Press Space to Jump");
 	gotoxy(62,2);
 	printf("SCORE : ");
